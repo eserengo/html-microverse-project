@@ -1,8 +1,23 @@
+body {
+    background-color: aquamarine;
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    font-family: sans-serif;
+}
 #navbar {
   background-color: #333;
-  overflow: hidden;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
   align-content: left;
-  padding-left: 60;
+  padding-left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  text-align: center;
 }
 #navbar a {
   float: left;
@@ -20,5 +35,13 @@
   color: white;
 }
 .nav-link {
-  color: #f2f2f2;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+@media only screen and (max-width:768px) {
+    body {font-size: 18px;}
+}
+@media only screen and (max-width: 450px) {
+    body {font-size: 16px;}
 }
