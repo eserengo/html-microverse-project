@@ -121,26 +121,25 @@ Cnavbar {
 		position: fixed;
 		top: 0;
 		left: 0;
-    float: left;
-    padding-left: 2px;
+    padding-top: 100px;
 	}
   .nav-link:hover 
-  {
+  {	
     background-color: black;
 }
 
 	#navbar header,
 	#navbar a {
 		padding-right: 10px;
+		
 	}
-	/* Style the header with a grey background and some padding */
-.header {
+
+	.header {
 	overflow: hidden;
-	background-color: #f1f1f1;
+	background-color: #25668b;
 	padding: 20px 10px;
   }
   
-  /* Style the header links */
   .header a {
 	float: left;
 	color: black;
@@ -152,33 +151,28 @@ Cnavbar {
 	border-radius: 4px;
   }
   
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   .header a.logo {
 	font-size: 25px;
 	font-weight: bold;
   }
   
-  /* Change the background color on mouse-over */
   .header a:hover {
-	background-color: #ddd;
+	background-color: rgb(0, 0, 0);
 	color: black;
   }
   
-  /* Style the active/current link*/
   .header a.active {
-	background-color: dodgerblue;
-	color: white;
+	background-color: rgb(247, 252, 247);
+	color: rgb(15, 104, 236);
   }
   
-  /* Float the link section to the right */
   .header-right {
 	float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
 	.header a {
-	  float: none;
+	  float: top;
 	  display: block;
 	  text-align: left;
 	}
